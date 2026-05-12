@@ -1,27 +1,15 @@
-# Reference for MFE5210 Alpha Factors Project
+1. BaoStock API Documentation. Historical A-share daily price and volume data interface. Retrieved from http://baostock.com.
 
-1. BaoStock API Documentation. (2025). Historical A-share daily price and volume data query. 
-   Available at: http://baostock.com
+2. Jegadeesh, N., & Titman, S. (1993). Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency. Journal of Finance, 48(1), 65–91. (Used for 5-day and 20-day momentum factor construction: F1_MOM5, F4_RANK_MOM)
 
-2. Jegadeesh, N., & Titman, S. (1993). 
-   Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency. 
-   Journal of Finance, 48(1), 65–91. 
-   - Source of the momentum factor (F1_MOM5, F4_RANK_MOM) construction logic.
+3. Lee, C. M. C., & Swaminathan, B. (2000). Price Momentum and Trading Volume. Journal of Finance, 55(5), 2017–2069. (Used for volume-based alpha factors: F2_VOL_SPIKE, F3_VOL_CHANGE)
 
-3. Lee, C. M. C., & Swaminathan, B. (2000). 
-   Price Momentum and Trading Volume. 
-   Journal of Finance, 55(5), 2017–2069. 
-   - Basis for volume spike and volume change factors (F2_VOL_SPIKE, F3_VOL_CHANGE).
+4. Blume, L., Easley, D., & O’Hara, M. (1994). Market Statistics and Technical Analysis: The Role of Volume. Journal of Finance, 49(1), 153–181. (Used for volume volatility factor: F5_VOL_VOLATILITY)
 
-4. Datar, V. T., Naik, N. Y., & Radcliffe, R. (1998). 
-   Liquidity and stock returns: An alternative test. 
-   Journal of Financial Markets, 1(2), 203–219. 
-   - Reference for using volume-based volatility (F5_VOL_VOLATILITY) as a cross-sectional factor.
+5. Quantitative Finance Framework: Cross-sectional Factor Standardization and Winsorization (1%–99%). Industry standard practice for alpha factor preprocessing.
 
-5. Quantitative Investment Industry Standard. 
-   Cross-sectional factor preprocessing: Winsorization at 1%/99% and daily standardization. 
-   Common practice in A-share quantitative research.
+6. Quantitative Asset Management: Spearman Rank IC, ICIR (IC Sharpe), and IC Decay Calculation. Standard methods for evaluating factor predictability and stability.
 
-6. Quantitative Factor Evaluation Framework. 
-   Spearman rank correlation (IC) and IC Sharpe ratio calculation. 
-   Standard method for evaluating predictive power of alpha factors in academic and industry practice.
+7. Quantitative Stock Selection: Factor Group Return Monotonicity Test. Common validation procedure for cross-sectional alpha factors in practice.
+
+8. A-share Quantitative Factor Research Reports. Brokerage published research on price and volume alpha factors.
